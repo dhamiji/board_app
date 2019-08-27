@@ -1,6 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+.env
+venv/
+
 *$py.class
 
 # C extensions
@@ -122,3 +125,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# SQLite database files
+
+*.sqlite3
